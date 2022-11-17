@@ -1,0 +1,33 @@
+.container {
+    width: 1000px;
+    height: auto;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid;
+    box-shadow: 0px 0px 5px 2px black;
+    border-radius: 10px;
+}
+.bar {
+    fill: rgb(46, 154, 255);
+}
+.bar:hover {
+    fill: white;
+}
+.tooltip {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    visibility: hidden;
+    box-shadow: 0px 0px 1px 1px black;
+}
+.tooltip-info {
+    font-weight: bold;
+}
